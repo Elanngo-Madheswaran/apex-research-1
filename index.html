@@ -37,12 +37,12 @@
             <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 justify-between w-full">
                     <li>
-                        <a href="#"
+                        <a href="#home"
                             class="block py-2 pl-3 pr-4 text-black text-2xl rounded lg:bg-transparent lg:p-0 lg:hover:text-orange-700"
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#courses"
                             class="block py-2 pl-3 pr-4 text-black text-2xl border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-orange-700 lg:p-0">Courses</a>
                     </li>
                     <li>
@@ -59,13 +59,13 @@
     </nav>
     
     <!-- top section -->
-    <section class="bg-teal-200 flex justify-center align-center sm:flex-row flex-col"> 
+    <section id="home" class="bg-cyan-200 flex justify-center align-center sm:flex-row flex-col"> 
         <img src="./images/view-3d-practicing-lawyer 1.png" class="py-3 sm:ms-3 md:block hidden h-3/5 self-center">
         <div class="flex flex-col md:m-5 my-5 py-5 md:p-5 justify-center">
-            <p class="text-center font-bold sm:text-6xl text-cyan-800 m-5 text-2xl">Unlock Your Research potential</p>
+            <p class="text-center font-bold sm:text-6xl text-cyan-800 m-5 text-3xl">Unlock Your Research potential</p>
             <p class="text-dark sm:text-2xl text-lg text-center">Join our Academic Courses And Excel in Academic Writing</p>
             <div class="self-center mt-5">
-                <button class="border-4 border-cyan-800 p-3 rounded-2xl w-40 bg-white text-xl transition-shadow duration-300 ease-in-out hover:shadow-[5px_5px_15px_rgba(0,0,0,0.35)] hover:text-white hover:bg-cyan-800">Read more</button>
+                <button class="border-4 border-cyan-800 p-3 rounded-2xl sm:w-40 w-26 bg-white sm:text-xl text-md shadow-none transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:text-white hover:bg-cyan-800">Read more</button>
             </div>
         </div>
     </section>
@@ -73,22 +73,22 @@
     <!-- our services section -->
     <section>
         <div class="sm:m-5 sm:p-5 p-1 m-1 mt-5 flex flex-col justify-center items-center">
-            <p class="text-center sm:text-6xl text-3xl font-medium text-amber-700 mt-5 p-5">OUR SERVICES</p>
-            <p class="text-center sm:text-xl text-md font-medium text-black">Guiding Your Research Success</p>
+            <p class="text-center sm:text-4xl text-2xl font-medium text-amber-700 mt-5 p-5">OUR SERVICES</p>
+            <p class="text-center sm:text-lg text-sm font-medium text-black">Guiding Your Research Success</p>
         </div>
 
         <div class="flex md:flex-row flex-col items-center justify-center">
-            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5" style="height: 537px; width: 385px;">
+            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5 rounded-lg shadow-lg" style="height: 537px; width: 385px;">
                 <img src="./images/people_11513080 1.png" class="m-2 p-2">
                 <p class="text-xl font-bold text-center">Learn from Expert Mentors</p>
                 <p class="lg:text-lg sm:text-md text-lg font-medium m-2 p-2">Our PhD-qualified professors and scientists provide personalized mentorship, guiding you through every step of your research journey. Benefit from their expertise and achieve academic excellence.</p>
             </div>
-            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5" style="height: 537px; width: 385px;">
+            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5 rounded-lg shadow-lg" style="height: 537px; width: 385px;">
                 <img src="./images/book_3908361 1.png" class="m-2 p-2">
                 <p class="lg:text-xl sm:text-lg text-xl font-bold text-center">Refined Research & Enhanced Writing Skills</p>
                 <p class="lg:text-lg  sm:text-md text-lg font-medium m-2 lg:p-2 sm:p-0 p-2">Upon completing the Academic Research Program, students receive a refined manuscript ready for submission to academic venues. Early exposure to advanced writing skills prepares them for college standards, enhancing their academic success and confidence.</p>
             </div>
-            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5" style="height: 537px; width: 385px;">
+            <div class="bg-teal-200 flex flex-col justify-start items-center rounded-3 mx-2 lg:mx-5 mb-5 rounded-lg shadow-lg" style="height: 537px; width: 385px;">
                 <img src="./images/two young men talking about work.png" class="m-2 p-2">
                 <p class="text-xl font-bold text-center">College Admission Advantages</p>
                 <p class="lg:text-lg sm:text-md text-lg font-medium m-2 p-2">Universities value students who excel beyond regular school hours. Horizon students stand out by completing a demanding 15-20 page paper in high school.</p>
@@ -96,46 +96,50 @@
         </div>
     </section>
 
-    <section class="">
+    <!-- featured courses section -->
+    <section id="courses" class="mt-5 pt-5">
         <div class="mt-5 pt-5">
-            <p class="fs-1 fw-bold text-center">Featured Courses</p>
-            <img src="./images/Man learning foreign languages online.png" height="228px" width="248px" id="feac" class="d-lg-block d-none">
+            <p class="text-4xl font-semibold text-center">Featured Courses</p>
+            <img src="./images/Man learning foreign languages online.png" height="228px" width="248px" id="feac" class="lg:inline-block hidden">
         </div>
 
-        <div class="row">
-            <div class="bg-primary bg-opacity-25 p-5 col mx-sm-5 mx-2">
-                <p class="fs-3 fw-semibold">Academic: Certificate in Research and Scientific Writing</p>
-                <p class="fs-4">Duration: 12 weeks</p>
-                <p class="fs-4">Eligibility: Rising sophomores and above.</p>
+        <div class="grid lg:grid-cols-2 lg:gap-15 lg:m-0 mt-5 grid-cols-1">
+            <div class="bg-cyan-200 p-5 m-5 shadow-xl transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2">
+                <p class="text-3xl font-semibold">Academic: Certificate in Research and Scientific Writing</p>
+                <p class="text-2xl font-medium my-3">Duration: 12 weeks</p>
+                <p class="text-2xl font-medium my-3">Eligibility: Rising sophomores and above.</p>
                 <div class="text-end">
-                    <button class="btn btn-outline-primary fs-5 fw-medium">Register now</button>
-                </div>
+                    <button class="text-xl font-semibold pb-1 border-2 border-cyan-900 rounded-xl bg-white w-36 hover:bg-cyan-900 hover:text-white hover:shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px,rgba(0,0,0,0.3)_0px_18px_36px_-18px]">Register now</button>
+                </div> 
             </div>
-            <div class="bg-primary bg-opacity-25 p-5 col mx-sm-5 mx-2">
-                <p class="fs-3 fw-semibold">Academic: Certificate in Research and Scientific Writing</p>
-                <p class="fs-4">Duration: 12 weeks</p>
-                <p class="fs-4">Eligibility: Rising sophomores and above.</p>
+            <div class="bg-cyan-200 p-5 m-5 shadow-xl transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2">
+                <p class="text-3xl font-semibold">Academic: Certificate in Research and Scientific Writing</p>
+                <p class="text-2xl font-medium my-3">Duration: 12 weeks</p>
+                <p class="text-2xl font-medium my-3">Eligibility: Rising sophomores and above.</p>
                 <div class="text-end">
-                    <button class="btn btn-outline-primary fs-5 fw-medium">Register now</button>
-                </div>
+                    <button class="text-xl font-semibold pb-1 border-2 border-cyan-900 rounded-xl bg-white w-36 hover:bg-cyan-900 hover:text-white hover:shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px,rgba(0,0,0,0.3)_0px_18px_36px_-18px]">Register now</button>
+                </div> 
             </div>
         </div>
-        <div class="row">
-            <div class="bg-primary bg-opacity-25 p-5 col mx-sm-5 mx-2">
-                <p class="fs-3 fw-semibold">Academic: Certificate in Research and Scientific Writing</p>
-                <p class="fs-4">Duration: 12 weeks</p>
-                <p class="fs-4">Eligibility: Rising sophomores and above.</p>
+        
+        
+        
+        <div class="grid lg:grid-cols-2 lg:gap-15 lg:m-0 mt-5 grid-cols-1">
+            <div class="bg-cyan-200 p-5 m-5 shadow-xl transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2">
+                <p class="text-3xl font-semibold">Academic: Certificate in Research and Scientific Writing</p>
+                <p class="text-2xl font-medium my-3">Duration: 12 weeks</p>
+                <p class="text-2xl font-medium my-3">Eligibility: Rising sophomores and above.</p>
                 <div class="text-end">
-                    <button class="btn btn-outline-primary fs-5 fw-medium">Register now</button>
-                </div>
+                    <button class="text-xl font-semibold pb-1 border-2 border-cyan-900 rounded-xl bg-white w-36 hover:bg-cyan-900 hover:text-white hover:shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px,rgba(0,0,0,0.3)_0px_18px_36px_-18px]">Register now</button>
+                </div> 
             </div>
-            <div class="bg-primary bg-opacity-25 p-5 col mx-sm-5 mx-2">
-                <p class="fs-3 fw-semibold">Academic: Certificate in Research and Scientific Writing</p>
-                <p class="fs-4">Duration: 12 weeks</p>
-                <p class="fs-4">Eligibility: Rising sophomores and above.</p>
+            <div class="bg-cyan-200 p-5 m-5 shadow-xl transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2">
+                <p class="text-3xl font-semibold">Academic: Certificate in Research and Scientific Writing</p>
+                <p class="text-2xl font-medium my-3">Duration: 12 weeks</p>
+                <p class="text-2xl font-medium my-3">Eligibility: Rising sophomores and above.</p>
                 <div class="text-end">
-                    <button class="btn btn-outline-primary fs-5 fw-medium">Register now</button>
-                </div>
+                    <button class="text-xl font-semibold pb-1 border-2 border-cyan-900 rounded-xl bg-white w-36 hover:bg-cyan-900 hover:text-white hover:shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px,rgba(0,0,0,0.3)_0px_18px_36px_-18px]">Register now</button>
+                </div> 
             </div>
         </div>
     </section>
